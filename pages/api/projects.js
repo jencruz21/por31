@@ -1,8 +1,7 @@
 import data from './projects.json';
 
 export const getProjects = () => {
-  const projects = JSON.parse(data);
-  return projects;
+  return data;
 };
 
 export default (req, res) => {
